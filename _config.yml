@@ -1,0 +1,16 @@
+title: "InspireLabs"
+description: "Empowering elementary students through hands-on STEM education"
+baseurl: ""
+url: "https://inspirelabs.org" # Replace with your domain
+theme: jekyll-theme-minimal
+
+# Navigation
+links:
+  - name: "Home"
+    url: "/"
+  - name: "About"
+    url: "/about"
+  - name: "Programs"
+    url: "/programs"
+  - name: "Contact"
+    url: "/contact"
