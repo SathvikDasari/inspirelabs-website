@@ -3,7 +3,7 @@ layout: home
 title: "Home"
 ---
 
-# 🚀 Welcome to InspireLabs!
+# 🚀 Welcome to InspireLabs! 123
 
 We empower elementary students through **hands-on STEM education** in underserved communities.
 
