@@ -1,0 +1,103 @@
+.hero {
+  background-image: url('/images/inspirelabs-header-image1.jpg');
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: auto;
+  min-height: 400px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.hero-overlay {
+  background-color: rgba(0, 0, 0, 0.1); /* dark overlay */
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem;
+}
+
+.hero-content {
+  color: #fff;
+  text-align: center;
+  max-width: 700px;
+}
+
+.hero-content h1 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+.hero-content p {
+  font-size: 1.2rem;
+}
+
+.cover {
+  background-size: contain !important;
+  background-position: center !important;
+  background-repeat: no-repeat !important;
+  height: auto !important;
+  min-height: 400px;
+}
+
+.cover.bg-top {
+  background-image: url('/images/inspirelabs-header-image1.png');
+  background-size: cover !important;
+  background-position: center center !important;
+  background-repeat: no-repeat !important;
+  width: 100%;
+  height: 400px; /* or try 500px or more depending on image proportions */
+  margin: 0;
+  padding: 0;
+}
+
+.logo-overlay {
+  height: 150px;           /* Adjust this value for size */
+  width: auto;
+  object-fit: contain;
+}
+
+.logo-container {
+  display: flex;
+  align-items: center;
+  max-height: 150px;       /* Same as logo height */
+  overflow: hidden;
+}
+
+.logo-link {
+  display: inline-block;
+}
+
+
+article.cf {
+  max-width: 900px;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+.measure-wide {
+  max-width: 900px;  /* or adjust if needed */
+  padding-left: 2rem;
+  padding-right: 2rem;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
