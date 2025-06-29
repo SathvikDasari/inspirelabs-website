@@ -2,20 +2,20 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>/about/</loc>
+    <loc>https://inspirelabs.org/about/</loc>
   </url><url>
-    <loc>/categories/</loc>
+    <loc>https://inspirelabs.org/categories/</loc>
   </url><url>
-    <loc>/contact/</loc>
+    <loc>https://inspirelabs.org/contact/</loc>
   </url><url>
-    <loc>/get-involved/</loc>
+    <loc>https://inspirelabs.org/get-involved/</loc>
   </url><url>
-    <loc>/</loc>
+    <loc>https://inspirelabs.org/</loc>
   </url><url>
-    <loc>/our-work/</loc>
+    <loc>https://inspirelabs.org/our-work/</loc>
   </url><url>
-    <loc>/programs/</loc>
+    <loc>https://inspirelabs.org/programs/</loc>
   </url><url>
-    <loc>/tags/</loc>
+    <loc>https://inspirelabs.org/tags/</loc>
   </url>
 </urlset>
