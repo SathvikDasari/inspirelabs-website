@@ -1,0 +1,35 @@
+.page-content {
+  padding: 80px 0;
+  text-align: center;
+}
+
+.partners-title {
+  font-size: 48px;
+  font-weight: bold;
+  margin-bottom: 60px;
+  color: #ffffff;
+}
+
+.partners-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.nasa-logo {
+  max-width: 400px;
+  width: 100%;
+}
+
+.nasa-logo img {
+  width: 100%;
+  height: auto;
+  border-radius: 12px;
+}
+
+@media (max-width: 768px) {
+  .partners-title {
+    font-size: 36px;
+  }
+}
+
