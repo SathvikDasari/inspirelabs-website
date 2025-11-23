@@ -16,6 +16,7 @@ function Header() {
           <Link to="/get-involved" className={`nav-link ${location.pathname === '/get-involved' ? 'active' : ''}`}>Get Involved</Link>
           <Link to="/our-work" className={`nav-link ${location.pathname === '/our-work' ? 'active' : ''}`}>Our Work</Link>
           <Link to="/programs" className={`nav-link ${location.pathname === '/programs' ? 'active' : ''}`}>Programs</Link>
+          <Link to="/team" className={`nav-link ${location.pathname === '/team' ? 'active' : ''}`}>Team</Link>
         </nav>
       </div>
     </header>
