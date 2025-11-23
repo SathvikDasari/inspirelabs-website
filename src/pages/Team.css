@@ -1,0 +1,163 @@
+.team-page {
+  background-color: #1f2937;
+  min-height: 100vh;
+  padding: 60px 20px;
+}
+
+.team-container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.team-title {
+  font-size: 3rem;
+  font-weight: 700;
+  text-align: center;
+  color: white;
+  margin-bottom: 60px;
+}
+
+.team-card-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.team-card {
+  display: flex;
+  gap: 60px;
+  align-items: center;
+  max-width: 1000px;
+  background: white;
+  padding: 40px;
+  border-radius: 20px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+}
+
+.team-image-container {
+  flex-shrink: 0;
+  perspective: 1000px;
+  position: relative;
+  width: 350px;
+  height: 400px;
+}
+
+.team-image-wrapper {
+  position: absolute;
+  inset: 0;
+  transform-origin: bottom;
+  transition: all 0.6s ease-out;
+}
+
+.team-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 15px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+}
+
+.team-info {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.team-header {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.team-name {
+  font-size: 2rem;
+  font-weight: 700;
+  color: #1f2937;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.linkedin-icon {
+  width: 28px;
+  height: 28px;
+  color: #0077b5;
+  transition: color 0.2s;
+}
+
+.linkedin-icon:hover {
+  color: #005582;
+}
+
+.linkedin-icon svg {
+  width: 100%;
+  height: 100%;
+}
+
+.team-title-text {
+  font-size: 1.125rem;
+  color: #6b7280;
+  font-weight: 500;
+}
+
+.team-bio {
+  font-size: 1.125rem;
+  line-height: 1.75;
+  color: #4b5563;
+}
+
+.team-navigation {
+  display: flex;
+  gap: 16px;
+  margin-top: 20px;
+}
+
+.nav-button {
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  border: 2px solid #e5e7eb;
+  background: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: all 0.2s;
+  color: #6b7280;
+}
+
+.nav-button:hover {
+  background: #f3f4f6;
+  border-color: #d1d5db;
+  color: #1f2937;
+}
+
+.nav-button svg {
+  width: 20px;
+  height: 20px;
+}
+
+@media (max-width: 768px) {
+  .team-card {
+    flex-direction: column;
+    padding: 30px;
+    gap: 30px;
+  }
+
+  .team-image {
+    width: 100%;
+    max-width: 300px;
+    height: 350px;
+  }
+
+  .team-title {
+    font-size: 2rem;
+    margin-bottom: 40px;
+  }
+
+  .team-name {
+    font-size: 1.5rem;
+  }
+}
+

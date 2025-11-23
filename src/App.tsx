@@ -8,6 +8,7 @@ import Contact from './pages/Contact'
 import Partners from './pages/Partners'
 import GetInvolved from './pages/GetInvolved'
 import OurWork from './pages/OurWork'
+import Team from './pages/Team'
 import './App.css'
 
 function App() {
@@ -24,6 +25,7 @@ function App() {
             <Route path="/partners" element={<Partners />} />
             <Route path="/get-involved" element={<GetInvolved />} />
             <Route path="/our-work" element={<OurWork />} />
+            <Route path="/team" element={<Team />} />
           </Routes>
         </main>
         <Footer />
